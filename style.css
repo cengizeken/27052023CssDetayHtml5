@@ -1,0 +1,279 @@
+.saga-yasla{
+    text-align: right;
+    font-size: 0.5cm;
+    line-height: 10mm;
+    font-style: italic;
+    font-weight: bold;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ikili-yasla{
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 0.2in;
+}
+
+.ozel-a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    background-color: aqua;
+}
+
+.normal-p{
+    text-indent: 50px;
+    font-size: 20pt;
+}
+
+.tam-yasla{
+    text-align: justify;
+    font-size: 2rem;
+}
+
+.ozel-div{
+    background-color: yellowgreen;
+    font-size: 200%;
+}
+
+ul{
+    background-color: yellowgreen;
+}
+
+li{
+    background-color: wheat;
+    margin: 10px;
+    padding: 10px;
+}
+
+.armenian{
+    list-style-type: armenian;
+    list-style-position: inside;
+    border: 4px blue solid;
+
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+
+    visibility: hidden;
+}
+
+.greek{
+    list-style-type: lower-greek;
+    border: 4px blue dotted;
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+
+
+.georgian{
+    list-style-type: georgian;
+    border: 4px red dashed;
+    display: none;
+}
+
+.armenian, .greek, .georgian{
+    background-color: yellow;
+}
+
+.alpha{
+    list-style-type: lower-alpha;
+    border: 10px red double;
+}
+
+.decimal{
+    list-style-type: decimal;
+    border: 10px red groove;
+    min-height: 50px;
+
+}
+
+.decimal li{
+    display: inline;
+}
+
+
+.decimal-lead-zero{
+    list-style-type: decimal-leading-zero;
+    border: 10px red ridge;
+}
+
+.rome{
+    list-style-type: lower-roman;
+    border: 10px red inset;
+
+    position: relative;
+    left: 40px;
+    z-index: 2;
+}
+
+.circle{
+    list-style-type: circle;
+    border: 10px red outset;
+}
+
+.square{
+    list-style-type: square;
+    border-width: 4px;
+    border-color: blueviolet;
+    border-style: solid;
+
+    outline-style: dotted;
+    outline-color: red;
+    outline-width: 5px;
+
+    /* bu 4 kod, icinde bulundugu elemanin ortasina
+    yerlesmeyi saglar */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+
+    z-index: 5;
+
+    background-color: chocolate;
+}
+
+.ozel-tablo{
+    border-collapse: collapse;
+    background-color: turquoise;
+    color: red;
+    padding: 20px;
+    margin: 20px;
+
+
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    
+}
+
+.normal{
+    border-left-color: red;
+    border-left-width: 4px;
+    border-left-style: solid;
+
+    border-top-color: blue;
+    border-top-width: 4px;
+    border-top-style: dashed;
+
+    border-right-color: rgb(255, 123, 0);
+    border-right-width: 10px;
+    border-right-style: dotted;
+
+    outline: 10px black solid;
+
+    margin: 10px 20px 30px 40px;
+
+    padding: 10px 20px 30px 40px;
+}
+
+.ikinci-div p{
+    background-color: violet;
+    margin: 20px;
+    padding: 20px;
+
+    width: 50%;
+    height: 100px;
+
+    min-width: 300px;
+    min-height: 75px;
+
+    max-width: 500px;
+    max-height: 125px;
+
+    font-size: 20px;
+}
+
+.ana{
+    background-color: hotpink;
+    padding: 20px;
+
+    width: 400px;
+    margin: auto;
+    opacity: 0.7;
+}
+
+@media screen {
+    .ana{
+        background-color: peru;
+        border-radius: 100px;
+    }
+
+    .alpha{
+        background-color: aquamarine;
+        border-radius: 100px;
+    }
+}
+
+@media all{
+    .ana{
+        height: 200px;
+    }
+}
+
+@media print {
+    .ana{
+        background-color: peru;
+        border-radius: 200px;
+    }
+
+    .alpha{
+        background-color: aquamarine;
+        border-radius: 200px;
+    }
+}
+
+@media print, screen {
+    .ana{
+       box-shadow: 0 0 10px gray;
+    }
+
+    .alpha{
+        box-shadow: 0 0 10px gray;
+    }
+}
+
+@media (max-width: 768px) {
+    .ana{
+        background-color: brown;
+        padding: 10px;
+     }
+ 
+     .alpha{
+         background-color: darkgoldenrod;
+         padding: 10px;
+     }
+}
+
+section div{
+    background-color: azure;
+
+}
+
+section div:hover{
+    box-shadow: 0 0 10px gray;
+}
+
+
+
+.cocuk{
+    background-color: blue;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+}
+
+
+.uvey-cocuk{
+    background-color: red;
+    clear: both;
+}
